@@ -1,0 +1,96 @@
+image =  new SimpleImage("stop.jpg");
+print(image);
+print(image.getWidth());
+print(image.getHeight());
+
+
+for(pixel:image){
+     pixel.setRed(0);
+     pixel.setGreen(0);
+     pixel.setBlue(0);
+}
+print(image);
+
+
+var x,y;
+for(x=200;x<=205;x++){
+	 for(y=150;y<=225;y++){
+		pixel = image.getPixel(x,y);
+		pixel.setRed(255);
+		pixel.setGreen(255);
+		pixel.setBlue(255);
+	 }
+ }
+ for(x=205;x<=230;x++){
+	 for(y=185;y<=190;y++){
+		pixel = image.getPixel(x,y);
+		pixel.setRed(255);
+		pixel.setGreen(255);
+		pixel.setBlue(255);
+	 }
+ }
+ for(x=230;x<=235;x++){
+	 for(y=150;y<=225;y++){
+		pixel = image.getPixel(x,y);
+		pixel.setRed(255);
+		pixel.setGreen(255);
+		pixel.setBlue(255);
+	 }
+ }
+ for(x=245;x<=250;x++){
+	 for(y=150;y<=225;y++){
+		pixel = image.getPixel(x,y);
+		pixel.setRed(255);
+		pixel.setGreen(255);
+		pixel.setBlue(255);
+	 }
+ }
+ for(x=250;x<=280;x++){
+	 for(y=150;y<=155;y++){
+		pixel = image.getPixel(x,y);
+		pixel.setRed(255);
+		pixel.setGreen(255);
+		pixel.setBlue(255);
+	 }
+ }
+ for(x=250;x<=280;x++){
+	 for(y=220;y<=225;y++){
+		pixel = image.getPixel(x,y);
+		pixel.setRed(255);
+		pixel.setGreen(255);
+		pixel.setBlue(255);
+	 }
+ }
+ for(x=280;x<=285;x++){
+	 for(y=150;y<=225;y++){
+		pixel = image.getPixel(x,y);
+		pixel.setRed(255);
+		pixel.setGreen(255);
+		pixel.setBlue(255);
+	 }
+ }
+ for(x=285;x<=295;x++){
+	 for(y=220;y<=225;y++){
+		pixel = image.getPixel(x,y);
+		pixel.setRed(255);
+		pixel.setGreen(255);
+		pixel.setBlue(255);
+	 }
+ }
+ for(x=295;x<=300;x++){
+	 for(y=205;y<=225;y++){
+		pixel = image.getPixel(x,y);
+		pixel.setRed(255);
+		pixel.setGreen(255);
+		pixel.setBlue(255);
+	 }
+ }
+ for(x=310;x<=315;x++){
+	 for(y=150;y<=225;y++){
+		pixel = image.getPixel(x,y);
+		pixel.setRed(255);
+		pixel.setGreen(255);
+		pixel.setBlue(255);
+	 }
+ }
+ print(image);
